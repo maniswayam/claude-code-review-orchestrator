@@ -4,7 +4,7 @@ import {
   CodeQualityResultSchema,
   TestCoverageResultSchema,
   RefactoringSuggestionSchema,
-} from './analysis-results';
+} from './analysis-results.js';
 
 export const ReviewReportSchema = z.object({
   pullRequest: z.object({

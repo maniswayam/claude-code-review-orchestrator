@@ -1,4 +1,4 @@
-import { ReviewReport } from '../types/report-types';
+import { ReviewReport } from '../types/report-types.js';
 
 export class ReportGenerator {
   generateMarkdownReport(report: ReviewReport): string {
