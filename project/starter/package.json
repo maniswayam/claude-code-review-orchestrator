@@ -12,7 +12,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/main.ts",
-    "start": "node dist/main.js",
+    "start": "node --experimental-specifier-resolution=node dist/main.js",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "tsc --noEmit"
